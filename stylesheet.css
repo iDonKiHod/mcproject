@@ -28,9 +28,11 @@ hr{
 }
 
 .nav {
+    color: rgba(0, 0, 0, 0.8);
     text-align: center;
     font-size: 50px;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .nav hr {
@@ -54,7 +56,7 @@ hr{
 
 .content button {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #ffffff;
     font-size: 38px;
 
@@ -64,11 +66,11 @@ hr{
 
     cursor: pointer;
 
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .content button:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 /* MAIN BUTTONS STYLES */
@@ -112,71 +114,6 @@ hr{
     background: linear-gradient(6deg, #333AFF 0%, #14EBFF 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14EBFF', endColorstr='#333AFF',GradientType=0 );
 }
-
-/* MAIN BUTTONS STYLES */
-
-
-/*
-#inf1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: 20px;
-    padding: 30px;
-}
-
-#inf1 article {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border: 0px solid white;
-    border-radius: 10px;
-    padding: 8px;
-}
-
-#inf2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: 20px;
-    padding: 30px;
-}
-
-#inf2 article {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border: 0px solid white;
-    border-radius: 10px;
-    padding: 8px;
-}
-
-#inf3 {
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: 20px;
-    padding: 30px;
-}
-
-#inf3 article {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border: 0px solid white;
-    border-radius: 10px;
-    padding: 8px;
-}
-
-#inf4 {
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: 20px;
-    padding: 30px;
-}
-
-#inf4 article {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border: 0px solid white;
-    border-radius: 10px;
-    padding: 8px;
-}
-*/
 
 /* WINDOWS STYLES */
 
@@ -324,4 +261,3 @@ button:active, button:focus {
 button::-moz-focus-inner {
     border: 0;
 }
-/* Убирает border при нажатии на кнопку */
